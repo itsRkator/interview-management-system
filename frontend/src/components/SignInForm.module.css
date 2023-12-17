@@ -1,0 +1,33 @@
+/* SignInForm.module.css */
+.signin-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .signin-button {
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #70d461;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 8px;
+  }
+  

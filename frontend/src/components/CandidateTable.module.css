@@ -1,0 +1,46 @@
+/* CandidateTable.module.css */
+.candidate-table-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.table-header {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(89, 98, 110);
+}
+
+.table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+.table-data-name {
+    width: auto;
+    padding: 10px;
+}
+
+.table-data-status {
+    width: auto;
+    padding: 8px;
+}
+
+.table-data-feedback {
+    width: auto;
+    padding: 8px;
+}
+
+.table-data-rating {
+    width: auto;
+    padding: 8px;
+}
